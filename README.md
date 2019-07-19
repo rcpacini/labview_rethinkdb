@@ -2,7 +2,7 @@
 RethinkDB LabVIEW Client Driver
 
 ## What is RethinkDB?
-(RethinkDB)[https://www.rethinkdb.com/] is an open-source no-sql database for the realtime web.
+[RethinkDB](https://www.rethinkdb.com/) is an open-source no-sql database for the realtime web.
 
 ## Getting Started
 1. Install LabVIEW 2017+
