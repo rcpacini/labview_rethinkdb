@@ -1,0 +1,6 @@
+# Metadata
+*.aliases
+*.lvlps
+
+# Data Folder
+rethinkdb_data
