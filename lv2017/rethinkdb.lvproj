@@ -20,6 +20,7 @@
 		<Item Name="tests" Type="Folder" URL="../tests">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="rethinkdb_example_cursor.vi" Type="VI" URL="../rethinkdb_example_cursor.vi"/>
 		<Item Name="rethinkdb_example_test.vi" Type="VI" URL="../rethinkdb_example_test.vi"/>
 		<Item Name="rethinkdb_example_test2.vi" Type="VI" URL="../rethinkdb_example_test2.vi"/>
 		<Item Name="rethinkdb_example_ui.vi" Type="VI" URL="../rethinkdb_example_ui.vi"/>
@@ -27,6 +28,7 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
