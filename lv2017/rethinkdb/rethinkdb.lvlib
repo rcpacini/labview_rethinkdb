@@ -81,23 +81,11 @@
 		<Item Name="debug.vi" Type="VI" URL="../debug.vi"/>
 		<Item Name="debug_fg.vi" Type="VI" URL="../debug_fg.vi"/>
 	</Item>
-	<Item Name="reql" Type="Folder">
-		<Item Name="reconnect.vi" Type="VI" URL="../reconnect.vi"/>
-		<Item Name="use.vi" Type="VI" URL="../use.vi"/>
-		<Item Name="query.vi" Type="VI" URL="../query.vi"/>
-		<Item Name="run_object.vi" Type="VI" URL="../run_object.vi"/>
-		<Item Name="run_cursor.vi" Type="VI" URL="../run_cursor.vi"/>
-	</Item>
-	<Item Name="cursor" Type="Folder">
-		<Item Name="cursor_refnum.ctl" Type="VI" URL="../cursor_refnum.ctl"/>
-		<Item Name="cursor_next.vi" Type="VI" URL="../cursor_next.vi"/>
-		<Item Name="cursor_close.vi" Type="VI" URL="../cursor_close.vi"/>
-	</Item>
 	<Item Name="close.vi" Type="VI" URL="../close.vi"/>
 	<Item Name="connect.vi" Type="VI" URL="../connect.vi"/>
 	<Item Name="disconnect.vi" Type="VI" URL="../disconnect.vi"/>
 	<Item Name="launch.vi" Type="VI" URL="../launch.vi"/>
+	<Item Name="query.vi" Type="VI" URL="../query.vi"/>
 	<Item Name="open.vi" Type="VI" URL="../open.vi"/>
 	<Item Name="reql.vi" Type="VI" URL="../reql.vi"/>
-	<Item Name="run.vi" Type="VI" URL="../run.vi"/>
 </Library>
