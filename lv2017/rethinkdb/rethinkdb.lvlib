@@ -50,19 +50,23 @@
 		<Item Name="ql2_query_to_id.vi" Type="VI" URL="../ql2_query_to_id.vi"/>
 		<Item Name="ql2_response.ctl" Type="VI" URL="../ql2_response.ctl"/>
 		<Item Name="ql2_response_to_id.vi" Type="VI" URL="../ql2_response_to_id.vi"/>
+		<Item Name="ql2_token_build.vi" Type="VI" URL="../ql2_token_build.vi"/>
 		<Item Name="ql2_term.ctl" Type="VI" URL="../ql2_term.ctl"/>
 		<Item Name="ql2_term_build.vi" Type="VI" URL="../ql2_term_build.vi"/>
 		<Item Name="ql2_term_to_id.vi" Type="VI" URL="../ql2_term_to_id.vi"/>
 	</Item>
-	<Item Name="r" Type="Folder">
-		<Item Name="r_db_create.vi" Type="VI" URL="../r_db_create.vi"/>
-		<Item Name="r_table_list.vi" Type="VI" URL="../r_table_list.vi"/>
-		<Item Name="r_table_create.vi" Type="VI" URL="../r_table_create.vi"/>
-		<Item Name="r_item_insert.vi" Type="VI" URL="../r_item_insert.vi"/>
-		<Item Name="r_table_drop.vi" Type="VI" URL="../r_table_drop.vi"/>
-		<Item Name="r_db_drop.vi" Type="VI" URL="../r_db_drop.vi"/>
-		<Item Name="r_db_list.vi" Type="VI" URL="../r_db_list.vi"/>
-		<Item Name="r_response.vi" Type="VI" URL="../r_response.vi"/>
+	<Item Name="reql" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="reql_db_create.vi" Type="VI" URL="../reql_db_create.vi"/>
+		<Item Name="reql_db_drop.vi" Type="VI" URL="../reql_db_drop.vi"/>
+		<Item Name="reql_db_list.vi" Type="VI" URL="../reql_db_list.vi"/>
+		<Item Name="reql_encode.vi" Type="VI" URL="../reql_encode.vi"/>
+		<Item Name="reql_item_get.vi" Type="VI" URL="../reql_item_get.vi"/>
+		<Item Name="reql_item_insert.vi" Type="VI" URL="../reql_item_insert.vi"/>
+		<Item Name="reql_response.vi" Type="VI" URL="../reql_response.vi"/>
+		<Item Name="reql_table_create.vi" Type="VI" URL="../reql_table_create.vi"/>
+		<Item Name="reql_table_drop.vi" Type="VI" URL="../reql_table_drop.vi"/>
+		<Item Name="reql_table_list.vi" Type="VI" URL="../reql_table_list.vi"/>
 	</Item>
 	<Item Name="string" Type="Folder">
 		<Item Name="string_split.vi" Type="VI" URL="../string_split.vi"/>
@@ -72,20 +76,18 @@
 		<Item Name="tcp_read_null.vi" Type="VI" URL="../tcp_read_null.vi"/>
 		<Item Name="tcp_write.vi" Type="VI" URL="../tcp_write.vi"/>
 	</Item>
-	<Item Name="type_defs" Type="Folder">
-		<Item Name="private.ctl" Type="VI" URL="../private.ctl"/>
-		<Item Name="refnum.ctl" Type="VI" URL="../refnum.ctl"/>
-	</Item>
 	<Item Name="debug" Type="Folder">
 		<Item Name="debug_action.ctl" Type="VI" URL="../debug_action.ctl"/>
 		<Item Name="debug.vi" Type="VI" URL="../debug.vi"/>
 		<Item Name="debug_fg.vi" Type="VI" URL="../debug_fg.vi"/>
 	</Item>
-	<Item Name="close.vi" Type="VI" URL="../close.vi"/>
-	<Item Name="connect.vi" Type="VI" URL="../connect.vi"/>
-	<Item Name="disconnect.vi" Type="VI" URL="../disconnect.vi"/>
+	<Item Name="ast" Type="Folder">
+		<Item Name="ast_db.vi" Type="VI" URL="../ast_db.vi"/>
+		<Item Name="ast_custom.vi" Type="VI" URL="../ast_custom.vi"/>
+		<Item Name="ast_table.vi" Type="VI" URL="../ast_table.vi"/>
+		<Item Name="ast_build.vi" Type="VI" URL="../ast_build.vi"/>
+	</Item>
 	<Item Name="launch.vi" Type="VI" URL="../launch.vi"/>
-	<Item Name="query.vi" Type="VI" URL="../query.vi"/>
-	<Item Name="open.vi" Type="VI" URL="../open.vi"/>
 	<Item Name="reql.vi" Type="VI" URL="../reql.vi"/>
+	<Item Name="RethinkDB.lvclass" Type="LVClass" URL="../RethinkDB.lvclass"/>
 </Library>
